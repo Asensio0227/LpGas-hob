@@ -32,10 +32,10 @@ const Services = () => {
           )
           })
         }
+      </div>
         <p>
           A list of basic gas Installation kits we offer can be found below.
         </p>
-      </div>
     </section>
   )
 }

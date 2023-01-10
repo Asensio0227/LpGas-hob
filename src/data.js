@@ -1,8 +1,4 @@
 import {
-  FaShuttlevan,
-  FaLock,
-} from 'react-icons/fa'
-import {
   BsFillLightbulbOffFill,
   BsFillLightningChargeFill,
   BsSuitDiamondFill
@@ -47,6 +43,7 @@ export default [
     },
     fields: {
       name: "inside cupboard",
+      slug:"inside cupboard",
       type: "single",
       featured: false,
       description:
@@ -109,7 +106,8 @@ No electrical connection shall be made below the hob. This will be in accordance
       id: "2"
     },
     fields: {
-      name: "inside cupboard2",
+      name: "inside cupboard 2",
+      slug:"inside cupboard 2",
       type: "single",
       featured: false,
       description:
@@ -178,6 +176,7 @@ No electrical connection shall be made below the hob. This will be in accordance
     },
     fields: {
       name: "inside installation",
+      slug: "inside installation",
       type: "single",
       featured: false,
       description:
@@ -246,6 +245,7 @@ No electrical connection shall be made below the hob. This will be in accordance
     },
     fields: {
       name: "internal installation",
+      slug:"internal installation",
       type: "single",
       featured: false,
       description:
@@ -314,6 +314,7 @@ No electrical connection shall be made below the hob. This will be in accordance
     },
     fields: {
       name: "inside installation 2",
+      slug:"inside installation 2",
       type: "single",
       featured: false,
       description:
@@ -382,6 +383,7 @@ No electrical connection shall be made below the hob. This will be in accordance
     },
     fields: {
       name: "internal installation 2",
+      slug:"internal installation",
       type: "single",
       featured: false,
       description:
@@ -409,7 +411,7 @@ No electrical connection shall be made below the hob. This will be in accordance
         {
           fields: {
             file: {
-              url: img6
+              url: img11
             }
           }
         },
@@ -450,8 +452,9 @@ No electrical connection shall be made below the hob. This will be in accordance
     },
     fields: {
       name: "inside cupboard 4",
+      slug: "inside cupbaord 4",
       type: "single",
-      featured: false,
+      featured: true,
       description:
       `Basic Installation kit for a hob/stove and a gas grill connecting 1 x 9/19 cylinder to a gas appliance consisting of the following:
 
@@ -478,7 +481,7 @@ No electrical connection shall be made below the hob. This will be in accordance
         {
           fields: {
             file: {
-              url: img7
+              url: img12
             }
           }
         },
@@ -499,7 +502,7 @@ No electrical connection shall be made below the hob. This will be in accordance
         {
           fields: {
             file: {
-              url: details4
+              url:img7
             }
           }
         }
@@ -512,6 +515,7 @@ No electrical connection shall be made below the hob. This will be in accordance
     },
     fields: {
       name: "outside cupboard",
+      slug:"outside cupboard",
       type: "double ",
       price: 100,
       featured: false,
@@ -594,6 +598,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
     },
     fields: {
       name: "outside cupboard 2",
+      slug:"outside cupboard 2",
       type: "double",
       featured: false,
       description:
@@ -675,8 +680,9 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
     },
     fields: {
       name: "outside installation",
+      slug:"outside installation",
       type: "double",
-      featured: false,
+      featured: true,
       description:
       `Backup/High demand Duel cylinder Installation kit connecting 2 x 9/19 or 48kg cylinders to a gas appliance consisting of the following:
 
@@ -715,7 +721,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
         {
           fields: {
             file: {
-              url: img10
+              url: details5
             }
           }
         },
@@ -743,7 +749,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
          {
           fields: {
             file: {
-              url: details5
+              url: img10
             }
           }
         }
@@ -756,6 +762,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
     },
     fields: {
       name: "outside cupboard",
+      slug:"outside cupboard",
       type: "single ",
       featured: false,
       description:
@@ -796,7 +803,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
         {
           fields: {
             file: {
-              url: img11
+              url: img6
             }
           }
         },
@@ -837,6 +844,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
     },
     fields: {
       name: "outside installation 2",
+      slug:"outside installation 2",
       type: "single ",
       featured: false,
       description:
@@ -877,7 +885,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
         {
           fields: {
             file: {
-              url: img12
+              url: img7
             }
           }
         },
@@ -918,6 +926,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
     },
     fields: {
       name: "external installation",
+      slug: "external installation",
       type: "double ",
       featured: false,
       description:
@@ -1000,6 +1009,7 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
     },
     fields: {
       name: "external installation",
+      slug:"external installation",
       type: "single ",
       featured: false,
       description:
@@ -1081,8 +1091,9 @@ Visit our gas regulations page for ideas on a cyclinder placement.`
     },
     fields: {
       name: "geyser installation",
+      slug: "geyser installation",
       type: "double ",
-      featured: false,
+      featured: true,
       description:
       `Backup/High demand Duel cylinder Installation kit connecting 2 x 9/19 or 48kg cylinders to a gas appliance consisting of the following:
 
@@ -1188,3 +1199,99 @@ export const services = [
     info: ` Never go without hot water, the ability to cook, heating or lights during load shedding – go with gas! With a reliable gas connection, you'll have access to hot water, the ability to cook, gas heaters/fireplace and electricity from a gas generator no matter what's happening with the electricity grid. Plus, gas appliances are typically more efficient than electric ones, saving you money on energy costs. Don't let load shedding disrupt your daily routine – choose gas! Visit our online store or Contact the professionals at The LpGas Man to find the perfect setup for your home`
   }
 ];
+
+export const placement = [
+  {
+    id: 1,
+    name: "Certificate of Compliance (CoC)",
+    text:`Require a Certificate of Compliance (CoC) for a Property Sale or Insurance?
+Obtaining a Certificate of Compliance (CoC) for your gas installation that consists of 1 x  Appliance is R950. ( A breakdown of pricing to be found below ).
+Contact Us
+
+A gas compliance certificate is a document that confirms that the gas installation or appliance in a property, whether it be residential, commercial, or industrial, has been installed, tested, and maintained according to South African National Standards (SANS) safety regulations. These certificates are issued by qualified and registered gas installers such as ourselves and are valid for a period of five years. However, if the property is being sold, the transferring attorneys may request an updated gas compliance certificate that is not older than three months.
+
+Our team of certified gas installers can provide this service for a fee starting at R950. This will include the callout, Inspection, leak and pressure test to ensure that your gas installation meets all relevant SANS regulations.`,
+    img:"https://cdn.shopify.com/s/files/1/0004/1664/5139/files/lp_gas_coc_The_lpgas_man.webp?v=1671645303&width=535"
+  },
+  {
+    id: 2,
+    name: "External Cylinder Placement",
+    text:`Containers shall be located on a firm, clean, well-drained and level base. The area surrounding a container shall be kept clear of combustible materials, for example, weeds, dry grass, paper and waste. Containers shall be located and protected against tampering by
+unauthorized persons and also damage and interference by, for example, animals and vehicles.
+
+Containers shall be at least
+
+a) 1 m away from any opening (into a building) that is below the level of the container valve, i.e.
+doors, windows and airbricks,
+b) 2 m away from any drain, pit or manhole.
+c) 3 m away from the property boundary, unless the boundary has a firewall, in which case the containers could be next to the firewall (see figure 8), and where there are only two containers, the boundary distance can be reduced to 1 m.
+i) Cylinder/s under electric fencing is to be placed into a cage to reduce distances.
+
+d) 3 m away from any opening (or window) directly above the containers. The 3 m distance from the top of the cylinder, valve connection or the manifold whichever is the higher, to the bottom of the
+window(s) may be reduced to a minimum of 300 mm providing that
+
+i) a non-combustible roof (see SANS 10400) is installed between the containers and the
+opening. The roof shall extend beyond the cylinder(s) such that when measured from the
+valve connection and around the roof to the nearest point of the window a minimum of 1,5 m
+safety distance shall be obtained, or
+
+
+ii) the window frames shall be steel and the total size of the glazing does not exceed 1 m2.
+* Glazing shall be of wire woven glass not larger than 450 mm × 450 mm per pane. Such
+windows shall not be openable.
+
+e) Where a roof is installed over the cylinders there shall be sufficient space above the cylinder valves to facilitate the exchange of cylinders. Roof structures of concrete shall not be installed above the manifold or cylinder.
+f) A minimum of 5m is required from a electrical source of ignition such as outside plug points, distribution boards, motors, pool pumps, generators etc.
+* If the source of ignition has been contained in an air/water tight housing, This minimum distance is not a concern but we keep a distance of atleast 1m away from the cylinder/s.
+
+h) Cylinder/s are to be placed into a cage if your property has public access not restricting them from entering.
+i) A total of 100kg's is allowed outside per a ERF number. If a property requires more than the allowed 100kg's, The property will require fire department approval with drawings showing the propossed location and setup. In some cases, Your local bylaws may differ to the allowed maximum allowance.`,
+    img:"https://cdn.shopify.com/s/files/1/0004/1664/5139/files/External_cylinder_placement_Installation_final.webp?v=1671460359&width=535"
+  },
+  {
+    id: 3,
+    name: "Internal Cylinder Placement",
+    text:`The Orange hose is not to exceed 2m and does not pass through any solid partitions/divider, walls, concrete etc. The hose from the hob is attached to the hosetail in the cupboard space under the hob or behind the stove and then onto either Copper class 2 or Pex. At this point we can then pass through partitions etc.
+a)Cupboard housing cylinder is to be vented
+b)Electrical Isolation switch is to be a minimum distance of 200mm either to the left or right of the appliance. It is not allowed to be below or above unsless an extractor has been put inplace.
+c)Electrical switches and plug points are not allowed below the hob or at the back of a stove.
+d)Internal Installations for houses (including cluster housing and group housing (not exceeding two storeys), a total maximum of 19 kg is allowed to be installed inside.
+e)Flats are allowed a maximum of 9 kg per flat.
+f)No fixed installation shall be installed inside a garage.`
+  },
+  {
+    id: 4,
+    name: "Boundary Wall Requirements",
+    text:`NOTE 1- The minimum required distance from drains is 2 m, irrespective of the number of cylinders.
+NOTE 2- Where not more than two cylinders are used, the minimum distance from a boundary is 1 m, unless
+the boundary is a firewall, in which case the cylinders may be placed directly against the boundary.
+
+NOTE 3- Where more than two cylinders are used, the minimum distance from a boundary is 3 m, unless the
+boundary is a firewall, in which case the cylinders may be placed directly against the boundary.
+
+Note 4- Where containers are placed adjacent to a wall on top of which is an electric fence, then a cage is to be installed with the minimum safety distances of A=750mm + B.`
+  }
+]
+
+export const lpGasRegulator = [
+  {
+    id: 1,
+    name: "Cylinder placement specs for under a window",
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/The_Lpgas_Man_4_480x480.png?v=1565599428",
+  },
+  {
+    id: 2,
+    name: "Cylinder placement specs for under electric fencing",
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/The_Lpgas_Man_7_480x480.png?v=1565599463",
+  },
+  {
+    id: 3,
+    name: "Cylinder distances required from a boundary",
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/The_Lpgas_Man_5_480x480.png?v=1565599496",
+  },
+   {
+    id: 4,
+    name: "Cage Requirements",
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/The_Lpgas_Man_8_480x480.png?v=1565599521",
+  },
+]

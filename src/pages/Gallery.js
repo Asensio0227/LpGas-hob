@@ -1,10 +1,24 @@
 import React from 'react'
+import { Hero, Banner, GalleryContainer } from "../components";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   return (
-    <div>
-       <h1>hello from gallery</h1>
-    </div>
+    <>
+      <Hero hero="gasHero">
+        <Banner
+          title="our Installations"
+        >
+          <Link
+            to="/"
+            className='btn-primary'
+          >
+            return home
+          </Link>
+        </Banner>
+      </Hero>
+      <GalleryContainer/>
+    </>
   )
 }
 

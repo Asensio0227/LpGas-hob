@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css"
 import { Routes, Route } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import {
@@ -24,10 +24,10 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route exact path='about' element={<About/>}/>
-        <Route exact path='gallery' element={<Gallery/>}/>
-        <Route exact path='coc' element={<Coc />} />
-        <Route exact path='/:id' element={<SingleHob/>}/>
+        <Route exact path='/about' element={<About/>}/>
+        <Route exact path='/gallery' element={<Gallery/>}/>
+        <Route exact path='/coc' element={<Coc />} />
+        <Route exact path='/gallery/:id' element={<SingleHob/>}/>
         <Route exact path='*' element={<Error/>}/>
       </Routes>
       <Footer/>
