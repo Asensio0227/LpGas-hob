@@ -19,7 +19,7 @@ const Contact = () => {
               <span>0633033071</span>
             </a>
             <br/>
-          <a href="http://wa.me/0633033071" target="_blank">
+          <a href="http://wa.me/0633033071" target="_blank"  rel="noreferrer">
               <BsWhatsapp />
               <span>whatsApp us</span>
         </a>
