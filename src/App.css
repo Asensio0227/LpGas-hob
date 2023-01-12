@@ -108,6 +108,26 @@ h6 {
   padding: 1rem;
   letter-spacing: var(--minSpacing);
 }
+.section {
+  padding:5rem 0;
+}
+.section-center {
+  width:90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+@media screen and (min-width: 992px){
+  .section-center {
+    width: 95vw;
+  }
+}
+.page-100 {
+  min-height: calc(100vh-10rem);
+  padding: 5rem 0;
+}
+.page {
+  min-height: calc(100vh-(20vh + 10rem));
+}
 /* 
 ==========
 Navbar
@@ -198,6 +218,24 @@ Hero
     background-image: url("./images/gas-10");
 
   min-height: 60vh;
+}
+@media screen and (min-width: 768px) {
+  .defaultHero,
+.gasHero {
+  height: 100%;
+}
+}
+@media screen and (min-width: 1200px) {
+  .defaultHero,
+.gasHero {
+  height: 17rem;
+}
+}
+@media screen and (min-width: 1400px) {
+  .defaultHero,
+.gasHero {
+  height: 26rem;
+}
 }
 /* 
 ==========

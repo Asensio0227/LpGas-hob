@@ -8,10 +8,8 @@ import styled from 'styled-components'
 const SingleHob = (props) => {
   const { id } = useParams();
   const navigate = useNavigate();
-  console.log(id);
   const [defaultImage, setDefaultImage] = useState(defaultImg);
   const { getGas,isError } = useGlobalContext();
-  console.log(getGas)
   const venom = getGas(id);
   
   useEffect(() => {
@@ -45,13 +43,12 @@ const SingleHob = (props) => {
   
 
   const {
-    description,
+    text,
     images,
     name
   } = venom;
   console.log(images)
   const [main, ...defaultImages] = images;
-  console.log(main);
 
   return (
     <Wrapper>
@@ -67,6 +64,8 @@ const SingleHob = (props) => {
           </Link>
         </Banner>
       </StyledHero>
+      <article className="section section-center page">
+
       <section className="product-center">
         <GasImages images={images} />
         <div className="">
@@ -74,11 +73,12 @@ const SingleHob = (props) => {
             <h3>details</h3>
             <h5>{name}</h5>
             <p className="desc">
-              {description}
+              {text}
             </p>
           </article>
         </div>
       </section>
+      </article>
     </Wrapper>
   )
 };

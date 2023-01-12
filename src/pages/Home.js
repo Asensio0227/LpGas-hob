@@ -21,7 +21,8 @@ const Home = () => {
         </Banner>
       </Hero>
       <Services />
-      <FeaturedGas/>
+      <FeaturedGas />
+      
     </>
   )
 }

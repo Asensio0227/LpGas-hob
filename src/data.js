@@ -1156,19 +1156,14 @@ export const navList = [
   },
    {
     id: 2,
-    path:"/about",
-    text:"About",
+        path:"/gallery",
+    text:"Gallery",
   },
   {
     id: 3,
     path:"/coc",
-    text:"Coc",
-  },
-    {
-    id: 4,
-    path:"/gallery",
-    text:"Gallery",
-  },
+    text:"Lp Gas regulation",
+  }
 ];
 
 
@@ -1204,19 +1199,19 @@ export const placement = [
   {
     id: 1,
     name: "Certificate of Compliance (CoC)",
-    text:`Require a Certificate of Compliance (CoC) for a Property Sale or Insurance?
+    text: `Require a Certificate of Compliance (CoC) for a Property Sale or Insurance?
 Obtaining a Certificate of Compliance (CoC) for your gas installation that consists of 1 x  Appliance is R950. ( A breakdown of pricing to be found below ).
 Contact Us
 
 A gas compliance certificate is a document that confirms that the gas installation or appliance in a property, whether it be residential, commercial, or industrial, has been installed, tested, and maintained according to South African National Standards (SANS) safety regulations. These certificates are issued by qualified and registered gas installers such as ourselves and are valid for a period of five years. However, if the property is being sold, the transferring attorneys may request an updated gas compliance certificate that is not older than three months.
 
 Our team of certified gas installers can provide this service for a fee starting at R950. This will include the callout, Inspection, leak and pressure test to ensure that your gas installation meets all relevant SANS regulations.`,
-    img:"https://cdn.shopify.com/s/files/1/0004/1664/5139/files/lp_gas_coc_The_lpgas_man.webp?v=1671645303&width=535"
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/lp_gas_coc_The_lpgas_man.webp?v=1671645303&width=535"
   },
   {
     id: 2,
     name: "External Cylinder Placement",
-    text:`Containers shall be located on a firm, clean, well-drained and level base. The area surrounding a container shall be kept clear of combustible materials, for example, weeds, dry grass, paper and waste. Containers shall be located and protected against tampering by
+    text: `Containers shall be located on a firm, clean, well-drained and level base. The area surrounding a container shall be kept clear of combustible materials, for example, weeds, dry grass, paper and waste. Containers shall be located and protected against tampering by
 unauthorized persons and also damage and interference by, for example, animals and vehicles.
 
 Containers shall be at least
@@ -1246,32 +1241,34 @@ f) A minimum of 5m is required from a electrical source of ignition such as outs
 
 h) Cylinder/s are to be placed into a cage if your property has public access not restricting them from entering.
 i) A total of 100kg's is allowed outside per a ERF number. If a property requires more than the allowed 100kg's, The property will require fire department approval with drawings showing the propossed location and setup. In some cases, Your local bylaws may differ to the allowed maximum allowance.`,
-    img:"https://cdn.shopify.com/s/files/1/0004/1664/5139/files/External_cylinder_placement_Installation_final.webp?v=1671460359&width=535"
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/External_cylinder_placement_Installation_final.webp?v=1671460359&width=535"
   },
   {
     id: 3,
     name: "Internal Cylinder Placement",
-    text:`The Orange hose is not to exceed 2m and does not pass through any solid partitions/divider, walls, concrete etc. The hose from the hob is attached to the hosetail in the cupboard space under the hob or behind the stove and then onto either Copper class 2 or Pex. At this point we can then pass through partitions etc.
+    text: `The Orange hose is not to exceed 2m and does not pass through any solid partitions/divider, walls, concrete etc. The hose from the hob is attached to the hosetail in the cupboard space under the hob or behind the stove and then onto either Copper class 2 or Pex. At this point we can then pass through partitions etc.
 a)Cupboard housing cylinder is to be vented
 b)Electrical Isolation switch is to be a minimum distance of 200mm either to the left or right of the appliance. It is not allowed to be below or above unsless an extractor has been put inplace.
 c)Electrical switches and plug points are not allowed below the hob or at the back of a stove.
 d)Internal Installations for houses (including cluster housing and group housing (not exceeding two storeys), a total maximum of 19 kg is allowed to be installed inside.
 e)Flats are allowed a maximum of 9 kg per flat.
-f)No fixed installation shall be installed inside a garage.`
+f)No fixed installation shall be installed inside a garage.`,
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/Internal_Gas_Bottle_Installation_final_1eca590f-0644-44ea-8240-d3beae0665cc.webp?v=1671460905&width=535"
   },
   {
     id: 4,
     name: "Boundary Wall Requirements",
-    text:`NOTE 1- The minimum required distance from drains is 2 m, irrespective of the number of cylinders.
+    text: `NOTE 1- The minimum required distance from drains is 2 m, irrespective of the number of cylinders.
 NOTE 2- Where not more than two cylinders are used, the minimum distance from a boundary is 1 m, unless
 the boundary is a firewall, in which case the cylinders may be placed directly against the boundary.
 
 NOTE 3- Where more than two cylinders are used, the minimum distance from a boundary is 3 m, unless the
 boundary is a firewall, in which case the cylinders may be placed directly against the boundary.
 
-Note 4- Where containers are placed adjacent to a wall on top of which is an electric fence, then a cage is to be installed with the minimum safety distances of A=750mm + B.`
+Note 4- Where containers are placed adjacent to a wall on top of which is an electric fence, then a cage is to be installed with the minimum safety distances of A=750mm + B.`,
+    img: "https://cdn.shopify.com/s/files/1/0004/1664/5139/files/imageedit_166_3906517283.webp?v=1671628600&width=535"
   }
-]
+];
 
 export const lpGasRegulator = [
   {

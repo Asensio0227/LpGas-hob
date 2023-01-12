@@ -5,7 +5,6 @@ import PropTypes from 'prop-types'
 
 const Gallery = memo(({ items }) => {
   const { images, name, id } = items;
-  console.log(items);
   return (
     <article className="gallery">
       <div className="img-container">
