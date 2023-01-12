@@ -13,9 +13,9 @@ const Coc = () => {
   return (
     <Wrapper>
       <section className="section section-center page">
-        <div className="title">
-          <h2>Lp Gas regulation</h2>
-          <div className="underline"></div>
+        <div className="section-title">
+          <h2>Lp Gas Regulation</h2>
+          <div></div>
         </div>
         {
           place.map((items) => {
