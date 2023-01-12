@@ -7,8 +7,11 @@ const Contact = () => {
   return (
     <Wrapper >
       <div className='section section-center page-100'>
-        <h3>Contact us
-        </h3>
+        <div className="section-title">
+        <h2>Contact us
+          </h2>
+          <div></div>
+        </div>
         <div className="content">
           <p>Thank you for considering The LpGas installer for all of your gas-related needs. We are here to help with all of your gas installation, repair, and product needs.
 
