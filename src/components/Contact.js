@@ -10,7 +10,7 @@ const Contact = () => {
         <h3>Contact us
         </h3>
         <div className="content">
-          <p>Thank you for considering The LpGas Installer for all of your gas-related needs. We are here to help with all of your gas installation, repair, and product needs.
+          <p>Thank you for considering The LpGas installer for all of your gas-related needs. We are here to help with all of your gas installation, repair, and product needs.
 
             If you have any questions or need assistance, please don't hesitate to contact us. Here are a few ways to get in touch:
           <br/>
