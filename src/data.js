@@ -1162,7 +1162,7 @@ export const navList = [
   {
     id: 3,
     path:"/coc",
-    text:"Lp Gas regulation",
+    text:"Lp Gas Regulation",
   }
 ];
 
