@@ -26,6 +26,10 @@ const Coc = () => {
           })
         }
 
+        <div className="section-title">
+          <h2>Cylinder Placement</h2>
+          <div></div>
+       </div>
         {
           regulation.map((items) => {
             const { id, name, img } = items;
